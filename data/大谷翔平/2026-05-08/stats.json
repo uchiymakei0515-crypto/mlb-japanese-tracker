@@ -1,0 +1,175 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "pitching"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 31,
+            "gamesPlayed": 6,
+            "gamesStarted": 6,
+            "groundOuts": 36,
+            "airOuts": 34,
+            "runs": 6,
+            "doubles": 7,
+            "triples": 0,
+            "homeRuns": 2,
+            "strikeOuts": 42,
+            "baseOnBalls": 9,
+            "intentionalWalks": 0,
+            "hits": 21,
+            "hitByPitch": 3,
+            "avg": ".160",
+            "atBats": 131,
+            "obp": ".229",
+            "slg": ".260",
+            "ops": ".489",
+            "caughtStealing": 0,
+            "stolenBases": 1,
+            "stolenBasePercentage": "1.000",
+            "caughtStealingPercentage": ".000",
+            "groundIntoDoublePlay": 0,
+            "numberOfPitches": 562,
+            "era": "0.97",
+            "inningsPitched": "37.0",
+            "wins": 2,
+            "losses": 2,
+            "saves": 0,
+            "saveOpportunities": 0,
+            "holds": 0,
+            "blownSaves": 0,
+            "earnedRuns": 4,
+            "whip": "0.81",
+            "battersFaced": 145,
+            "outs": 111,
+            "gamesPitched": 6,
+            "completeGames": 0,
+            "shutouts": 0,
+            "strikes": 370,
+            "strikePercentage": ".660",
+            "hitBatsmen": 3,
+            "balks": 0,
+            "wildPitches": 0,
+            "pickoffs": 0,
+            "totalBases": 34,
+            "groundOutsToAirouts": "1.06",
+            "winPercentage": ".500",
+            "pitchesPerInning": "15.19",
+            "gamesFinished": 0,
+            "strikeoutWalkRatio": "4.67",
+            "strikeoutsPer9Inn": "10.22",
+            "walksPer9Inn": "2.19",
+            "hitsPer9Inn": "5.11",
+            "runsScoredPer9": "1.46",
+            "homeRunsPer9": "0.49",
+            "inheritedRunners": 0,
+            "inheritedRunnersScored": 0,
+            "catchersInterference": 0,
+            "sacBunts": 1,
+            "sacFlies": 1
+          },
+          "team": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "player": {
+            "id": 660271,
+            "fullName": "Shohei Ohtani",
+            "link": "/api/v1/people/660271"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    },
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "hitting"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 31,
+            "gamesPlayed": 37,
+            "groundOuts": 30,
+            "airOuts": 32,
+            "runs": 25,
+            "doubles": 7,
+            "triples": 0,
+            "homeRuns": 6,
+            "strikeOuts": 37,
+            "baseOnBalls": 27,
+            "intentionalWalks": 6,
+            "hits": 32,
+            "hitByPitch": 4,
+            "avg": ".248",
+            "atBats": 129,
+            "obp": ".389",
+            "slg": ".442",
+            "ops": ".831",
+            "caughtStealing": 0,
+            "stolenBases": 5,
+            "stolenBasePercentage": "1.000",
+            "caughtStealingPercentage": ".000",
+            "groundIntoDoublePlay": 3,
+            "numberOfPitches": 622,
+            "plateAppearances": 163,
+            "totalBases": 57,
+            "rbi": 15,
+            "leftOnBase": 57,
+            "sacBunts": 0,
+            "sacFlies": 2,
+            "babip": ".295",
+            "groundOutsToAirouts": "0.94",
+            "catchersInterference": 1,
+            "atBatsPerHomeRun": "21.50"
+          },
+          "team": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "player": {
+            "id": 660271,
+            "fullName": "Shohei Ohtani",
+            "link": "/api/v1/people/660271"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
