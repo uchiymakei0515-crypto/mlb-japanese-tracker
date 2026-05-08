@@ -1,69 +1,25 @@
 """
 MLB日本人選手データ収集スクリプト
-GitHubリポジトリ内に直接データを保存する版（記事本文取得あり・Google News対応）
+GitHubリポジトリ内に直接データを保存する版（軽量・安定版）
 """
 import os
 import json
 import requests
 import feedparser
 import re
-import base64
 from datetime import datetime
 from urllib.parse import quote
 
 TODAY = datetime.now().strftime('%Y-%m-%d')
 DATA_DIR = 'data'
 
-# ===== HTML除去 =====
 def clean_html(html_text):
     if not html_text:
         return ""
-    text = re.sub(r'<script[^>]*>.*?</script>', '', html_text, flags=re.DOTALL)
-    text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL)
-    text = re.sub(r'<[^>]+>', '', text)
+    text = re.sub(r'<[^>]+>', '', html_text)
     text = re.sub(r'\s+', ' ', text)
     return text.strip()
 
-# ===== Google Newsリンクから実際のURLを取得 =====
-def resolve_google_news_url(google_url):
-    """Google NewsのリンクをたどってJavaScript転送先の本物URLを取得"""
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-        }
-        r = requests.get(google_url, headers=headers, timeout=10, allow_redirects=True)
-        # JavaScriptの転送先URLを正規表現で抽出
-        match = re.search(r'data-n-au="([^"]+)"', r.text)
-        if match:
-            return match.group(1)
-        # 別パターン
-        match = re.search(r'<a[^>]+href="(https?://[^"]+)"[^>]*>Continue', r.text)
-        if match:
-            return match.group(1)
-        # それでも見つからなければ最終URL返す
-        return r.url if 'news.google.com' not in r.url else ""
-    except Exception:
-        return ""
-
-# ===== 記事本文取得 =====
-def get_article_body(google_url, max_chars=3000):
-    real_url = resolve_google_news_url(google_url)
-    if not real_url:
-        return ""
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-        }
-        r = requests.get(real_url, headers=headers, timeout=10, allow_redirects=True)
-        if r.status_code != 200:
-            return ""
-        r.encoding = r.apparent_encoding
-        body = clean_html(r.text)
-        return body[:max_chars]
-    except Exception:
-        return ""
-
-# ===== MLB成績データ取得 =====
 def get_mlb_stats(player_id, player_type):
     season = datetime.now().year
     if player_type == 'pitcher':
@@ -79,7 +35,6 @@ def get_mlb_stats(player_id, player_type):
     except Exception as e:
         return {"error": str(e)}
 
-# ===== Google Newsから日英ニュース取得（本文付き） =====
 def get_news(player_name_jp, player_name_en):
     news = {"jp": [], "en": []}
     
@@ -87,11 +42,9 @@ def get_news(player_name_jp, player_name_en):
     try:
         feed = feedparser.parse(jp_url)
         for entry in feed.entries[:15]:
-            link = entry.get("link", "")
             news["jp"].append({
                 "title": entry.get("title", ""),
-                "body": get_article_body(link),
-                "link": link,
+                "link": entry.get("link", ""),
                 "published": entry.get("published", ""),
                 "source": entry.get("source", {}).get("title", "") if hasattr(entry, 'source') else ""
             })
@@ -102,11 +55,9 @@ def get_news(player_name_jp, player_name_en):
     try:
         feed = feedparser.parse(en_url)
         for entry in feed.entries[:15]:
-            link = entry.get("link", "")
             news["en"].append({
                 "title": entry.get("title", ""),
-                "body": get_article_body(link),
-                "link": link,
+                "link": entry.get("link", ""),
                 "published": entry.get("published", ""),
                 "source": entry.get("source", {}).get("title", "") if hasattr(entry, 'source') else ""
             })
@@ -115,7 +66,6 @@ def get_news(player_name_jp, player_name_en):
     
     return news
 
-# ===== Reddit RSSから現地ファンの声取得 =====
 def get_reddit_posts(player_name_en):
     query = quote(player_name_en)
     url = f"https://www.reddit.com/r/baseball/search.rss?q={query}&restrict_sr=1&sort=new"
@@ -135,7 +85,6 @@ def get_reddit_posts(player_name_en):
         return {"error": str(e), "posts": []}
     return {"posts": posts}
 
-# ===== ファイル保存 =====
 def save_file(player_name_jp, filename, content):
     folder = os.path.join(DATA_DIR, player_name_jp, TODAY)
     os.makedirs(folder, exist_ok=True)
@@ -144,7 +93,6 @@ def save_file(player_name_jp, filename, content):
         f.write(content)
     print(f"  ✓ Saved: {path}")
 
-# ===== メイン処理 =====
 def main():
     with open(os.path.join(os.path.dirname(__file__), 'players.json'), 'r', encoding='utf-8') as f:
         players = json.load(f)
