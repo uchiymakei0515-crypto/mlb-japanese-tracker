@@ -28,7 +28,6 @@ def get_mlb_stats(player_id, player_type):
     except Exception as e:
         return {"error": str(e)}
 
-# ===== Google Newsから日英ニュース取得 =====
 def get_news(player_name_jp, player_name_en):
     news = {"jp": [], "en": []}
     
@@ -38,6 +37,7 @@ def get_news(player_name_jp, player_name_en):
         for entry in feed.entries[:15]:
             news["jp"].append({
                 "title": entry.get("title", ""),
+                "summary": entry.get("summary", ""),
                 "link": entry.get("link", ""),
                 "published": entry.get("published", ""),
                 "source": entry.get("source", {}).get("title", "") if hasattr(entry, 'source') else ""
@@ -51,6 +51,7 @@ def get_news(player_name_jp, player_name_en):
         for entry in feed.entries[:15]:
             news["en"].append({
                 "title": entry.get("title", ""),
+                "summary": entry.get("summary", ""),
                 "link": entry.get("link", ""),
                 "published": entry.get("published", ""),
                 "source": entry.get("source", {}).get("title", "") if hasattr(entry, 'source') else ""
