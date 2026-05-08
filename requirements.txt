@@ -1,4 +1,2 @@
 requests
 feedparser
-google-api-python-client
-google-auth
