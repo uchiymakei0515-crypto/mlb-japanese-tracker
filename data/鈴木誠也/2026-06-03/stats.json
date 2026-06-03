@@ -1,0 +1,76 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "hitting"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 31,
+            "gamesPlayed": 47,
+            "groundOuts": 36,
+            "airOuts": 46,
+            "runs": 25,
+            "doubles": 5,
+            "triples": 0,
+            "homeRuns": 7,
+            "strikeOuts": 53,
+            "baseOnBalls": 20,
+            "intentionalWalks": 3,
+            "hits": 42,
+            "hitByPitch": 3,
+            "avg": ".239",
+            "atBats": 176,
+            "obp": ".325",
+            "slg": ".386",
+            "ops": ".711",
+            "caughtStealing": 0,
+            "stolenBases": 0,
+            "stolenBasePercentage": ".---",
+            "caughtStealingPercentage": ".---",
+            "groundIntoDoublePlay": 4,
+            "numberOfPitches": 825,
+            "plateAppearances": 200,
+            "totalBases": 68,
+            "rbi": 19,
+            "leftOnBase": 124,
+            "sacBunts": 0,
+            "sacFlies": 1,
+            "babip": ".299",
+            "groundOutsToAirouts": "0.78",
+            "catchersInterference": 0,
+            "atBatsPerHomeRun": "25.14"
+          },
+          "team": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "player": {
+            "id": 673548,
+            "fullName": "Seiya Suzuki",
+            "link": "/api/v1/people/673548"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
