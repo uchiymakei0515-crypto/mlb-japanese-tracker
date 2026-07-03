@@ -1,0 +1,104 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "pitching"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 33,
+            "gamesPlayed": 8,
+            "gamesStarted": 7,
+            "groundOuts": 22,
+            "airOuts": 34,
+            "runs": 34,
+            "doubles": 5,
+            "triples": 0,
+            "homeRuns": 10,
+            "strikeOuts": 38,
+            "baseOnBalls": 23,
+            "intentionalWalks": 0,
+            "hits": 35,
+            "hitByPitch": 2,
+            "avg": ".273",
+            "atBats": 128,
+            "obp": ".390",
+            "slg": ".547",
+            "ops": ".937",
+            "caughtStealing": 1,
+            "stolenBases": 1,
+            "stolenBasePercentage": ".500",
+            "caughtStealingPercentage": ".500",
+            "groundIntoDoublePlay": 2,
+            "numberOfPitches": 627,
+            "era": "9.09",
+            "inningsPitched": "32.2",
+            "wins": 0,
+            "losses": 7,
+            "saves": 0,
+            "saveOpportunities": 0,
+            "holds": 0,
+            "blownSaves": 0,
+            "earnedRuns": 33,
+            "whip": "1.78",
+            "battersFaced": 154,
+            "outs": 98,
+            "gamesPitched": 8,
+            "completeGames": 0,
+            "shutouts": 0,
+            "strikes": 377,
+            "strikePercentage": ".600",
+            "hitBatsmen": 2,
+            "balks": 0,
+            "wildPitches": 0,
+            "pickoffs": 0,
+            "totalBases": 70,
+            "groundOutsToAirouts": "0.65",
+            "winPercentage": ".000",
+            "pitchesPerInning": "19.19",
+            "gamesFinished": 1,
+            "strikeoutWalkRatio": "1.65",
+            "strikeoutsPer9Inn": "10.47",
+            "walksPer9Inn": "6.34",
+            "hitsPer9Inn": "9.64",
+            "runsScoredPer9": "9.37",
+            "homeRunsPer9": "2.76",
+            "inheritedRunners": 0,
+            "inheritedRunnersScored": 0,
+            "catchersInterference": 0,
+            "sacBunts": 0,
+            "sacFlies": 1
+          },
+          "team": {
+            "id": 121,
+            "name": "New York Mets",
+            "link": "/api/v1/teams/121"
+          },
+          "player": {
+            "id": 673540,
+            "fullName": "Kodai Senga",
+            "link": "/api/v1/people/673540"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
