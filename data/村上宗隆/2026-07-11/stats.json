@@ -1,0 +1,76 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "hitting"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 26,
+            "gamesPlayed": 59,
+            "groundOuts": 37,
+            "airOuts": 38,
+            "runs": 44,
+            "doubles": 5,
+            "triples": 0,
+            "homeRuns": 20,
+            "strikeOuts": 85,
+            "baseOnBalls": 45,
+            "intentionalWalks": 4,
+            "hits": 49,
+            "hitByPitch": 1,
+            "avg": ".236",
+            "atBats": 208,
+            "obp": ".373",
+            "slg": ".548",
+            "ops": ".921",
+            "caughtStealing": 3,
+            "stolenBases": 1,
+            "stolenBasePercentage": ".250",
+            "caughtStealingPercentage": ".750",
+            "groundIntoDoublePlay": 2,
+            "numberOfPitches": 1123,
+            "plateAppearances": 255,
+            "totalBases": 114,
+            "rbi": 42,
+            "leftOnBase": 79,
+            "sacBunts": 0,
+            "sacFlies": 1,
+            "babip": ".279",
+            "groundOutsToAirouts": "0.97",
+            "catchersInterference": 0,
+            "atBatsPerHomeRun": "10.40"
+          },
+          "team": {
+            "id": 145,
+            "name": "Chicago White Sox",
+            "link": "/api/v1/teams/145"
+          },
+          "player": {
+            "id": 808959,
+            "fullName": "Munetaka Murakami",
+            "link": "/api/v1/people/808959"
+          },
+          "league": {
+            "id": 103,
+            "name": "American League",
+            "link": "/api/v1/league/103"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
