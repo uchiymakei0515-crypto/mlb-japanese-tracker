@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "title": "Every team’s best hitter by OPS this season (min 250 PA)",
+      "summary": "&#32; submitted by &#32; /u/Interforce7 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1uy4oak/every_teams_best_hitter_by_ops_this_season_min/",
+      "published": "2026-07-16T14:36:33+00:00"
+    },
+    {
+      "title": "Mike Tyson awarded Shohei Ohtani the ESPY for best single-game performance, but had one very important question afterwards — “Shohei’s a guy?” [Jomboy]",
+      "summary": "&#32; submitted by &#32; /u/baribigbird06 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1uxpuvf/mike_tyson_awarded_shohei_ohtani_the_espy_for/",
+      "published": "2026-07-16T02:16:50+00:00"
+    },
+    {
+      "title": "Shohei Ohtani wins the ESPY Best Single-Game Performance!",
+      "summary": "&#32; submitted by &#32; /u/jmike1256 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1uxpad7/shohei_ohtani_wins_the_espy_best_singlegame/",
+      "published": "2026-07-16T01:50:45+00:00"
+    },
+    {
+      "title": "Shohei Ohtani 1:6 Action Figure (McFarlane+Blitzway) DX Version",
+      "summary": "&#32; submitted by &#32; /u/cf18 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1uwdm8f/shohei_ohtani_16_action_figure_mcfarlaneblitzway/",
+      "published": "2026-07-14T16:28:34+00:00"
+    },
+    {
+      "title": "Oshu City the hometown of Shohei Ohtani has created a large image of him in a rice field",
+      "summary": "&#32; submitted by &#32; /u/SpaceCowboyN7 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1uvfg0y/oshu_city_the_hometown_of_shohei_ohtani_has/",
+      "published": "2026-07-13T15:52:30+00:00"
+    },
+    {
+      "title": "[Highlight] Shohei Ohtani CRUSHES the first pitch he sees for a leadoff homer!",
+      "summary": "&#32; submitted by &#32; /u/MLBOfficial [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1uuqidb/highlight_shohei_ohtani_crushes_the_first_pitch/",
+      "published": "2026-07-12T20:25:27+00:00"
+    },
+    {
+      "title": "[Highlight] Shohei Ohtani starts the game with a leadoff homer!",
+      "summary": "&#32; submitted by &#32; /u/jmike1256 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1ut7qkd/highlight_shohei_ohtani_starts_the_game_with_a/",
+      "published": "2026-07-11T02:30:52+00:00"
+    },
+    {
+      "title": "[Ardaya] The “interventions” on Shohei Ohtani’s knee will be draining the left knee and then and then likely an injection, a source said.",
+      "summary": "&#32; submitted by &#32; /u/Knightbear49 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1uszncx/ardaya_the_interventions_on_shohei_ohtanis_knee/",
+      "published": "2026-07-10T20:45:03+00:00"
+    },
+    {
+      "title": "[MLBTR] Shohei Ohtani To Miss Start, Skip All-Star Game Due To Left Knee Issue",
+      "summary": "&#32; submitted by &#32; /u/AndrewAllStar888 [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1usymry/mlbtr_shohei_ohtani_to_miss_start_skip_allstar/",
+      "published": "2026-07-10T20:06:32+00:00"
+    },
+    {
+      "title": "A table of each team's original signees still in the league",
+      "summary": "I made this chart showing the number of original signees from each team that are still on a 40-man roster anywhere in the league. For the sake of simplicity, a player is the &quot;signee&quot; of whichever organization they first signed with, whether that was after being drafted or signing as in international free agent or otherwise. Also included is the total 2026 WAR of all those players (wherever they may be) and each team's signee with the highest current WAR this season. The WAR value is what's given by the MLB API, which I believe is fWAR. Players on the 60-day IL are still considered to be on the roster for this exercise. Note: I tried making a similar post earlier and got rightfully blasted for including Dillon Dingler as a D-backs draftee, but that wasn't entirely my fault. The result of my API call shows that Dillon Dingler played for the Salt River Rafters in the Arizona Fall League in '22 but lists the parent organization as the D-backs. Every other Tigers player that has the Rafters in their history lists the correct (Tigers) parentOrgId of 116. Still, I guess I should have checked better. This is not AI slop as many people in the previous post suggested. I pulled data directly from the MLB API and sorted it into a massive spreadsheet to make the table. &#32; submitted by &#32; /u/bdanders [link] &#32; [comments]",
+      "link": "https://www.reddit.com/r/baseball/comments/1usptz9/a_table_of_each_teams_original_signees_still_in/",
+      "published": "2026-07-10T14:48:45+00:00"
+    }
+  ]
+}
