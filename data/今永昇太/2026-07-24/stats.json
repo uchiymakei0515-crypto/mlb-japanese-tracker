@@ -1,0 +1,104 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "pitching"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 32,
+            "gamesPlayed": 20,
+            "gamesStarted": 20,
+            "groundOuts": 97,
+            "airOuts": 127,
+            "runs": 51,
+            "doubles": 18,
+            "triples": 1,
+            "homeRuns": 22,
+            "strikeOuts": 109,
+            "baseOnBalls": 28,
+            "intentionalWalks": 0,
+            "hits": 100,
+            "hitByPitch": 3,
+            "avg": ".232",
+            "atBats": 431,
+            "obp": ".283",
+            "slg": ".432",
+            "ops": ".715",
+            "caughtStealing": 0,
+            "stolenBases": 3,
+            "stolenBasePercentage": "1.000",
+            "caughtStealingPercentage": ".000",
+            "groundIntoDoublePlay": 10,
+            "numberOfPitches": 1800,
+            "era": "3.91",
+            "inningsPitched": "115.0",
+            "wins": 6,
+            "losses": 8,
+            "saves": 0,
+            "saveOpportunities": 0,
+            "holds": 0,
+            "blownSaves": 0,
+            "earnedRuns": 50,
+            "whip": "1.11",
+            "battersFaced": 464,
+            "outs": 345,
+            "gamesPitched": 20,
+            "completeGames": 0,
+            "shutouts": 0,
+            "strikes": 1184,
+            "strikePercentage": ".660",
+            "hitBatsmen": 3,
+            "balks": 0,
+            "wildPitches": 4,
+            "pickoffs": 4,
+            "totalBases": 186,
+            "groundOutsToAirouts": "0.76",
+            "winPercentage": ".429",
+            "pitchesPerInning": "15.65",
+            "gamesFinished": 0,
+            "strikeoutWalkRatio": "3.89",
+            "strikeoutsPer9Inn": "8.53",
+            "walksPer9Inn": "2.19",
+            "hitsPer9Inn": "7.83",
+            "runsScoredPer9": "3.99",
+            "homeRunsPer9": "1.72",
+            "inheritedRunners": 0,
+            "inheritedRunnersScored": 0,
+            "catchersInterference": 0,
+            "sacBunts": 1,
+            "sacFlies": 1
+          },
+          "team": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "player": {
+            "id": 684007,
+            "fullName": "Shota Imanaga",
+            "link": "/api/v1/people/684007"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
