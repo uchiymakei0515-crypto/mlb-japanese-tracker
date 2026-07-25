@@ -1,0 +1,76 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "hitting"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 30,
+            "gamesPlayed": 102,
+            "groundOuts": 68,
+            "airOuts": 90,
+            "runs": 52,
+            "doubles": 13,
+            "triples": 0,
+            "homeRuns": 23,
+            "strikeOuts": 129,
+            "baseOnBalls": 38,
+            "intentionalWalks": 0,
+            "hits": 84,
+            "hitByPitch": 6,
+            "avg": ".228",
+            "atBats": 369,
+            "obp": ".308",
+            "slg": ".450",
+            "ops": ".758",
+            "caughtStealing": 0,
+            "stolenBases": 0,
+            "stolenBasePercentage": ".---",
+            "caughtStealingPercentage": ".---",
+            "groundIntoDoublePlay": 8,
+            "numberOfPitches": 1742,
+            "plateAppearances": 415,
+            "totalBases": 166,
+            "rbi": 65,
+            "leftOnBase": 180,
+            "sacBunts": 0,
+            "sacFlies": 2,
+            "babip": ".279",
+            "groundOutsToAirouts": "0.76",
+            "catchersInterference": 0,
+            "atBatsPerHomeRun": "16.04"
+          },
+          "team": {
+            "id": 141,
+            "name": "Toronto Blue Jays",
+            "link": "/api/v1/teams/141"
+          },
+          "player": {
+            "id": 672960,
+            "fullName": "Kazuma Okamoto",
+            "link": "/api/v1/people/672960"
+          },
+          "league": {
+            "id": 103,
+            "name": "American League",
+            "link": "/api/v1/league/103"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
