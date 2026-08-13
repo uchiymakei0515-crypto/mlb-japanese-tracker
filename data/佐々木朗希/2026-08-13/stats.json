@@ -1,0 +1,104 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "pitching"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 24,
+            "gamesPlayed": 20,
+            "gamesStarted": 20,
+            "groundOuts": 101,
+            "airOuts": 100,
+            "runs": 55,
+            "doubles": 27,
+            "triples": 2,
+            "homeRuns": 21,
+            "strikeOuts": 106,
+            "baseOnBalls": 40,
+            "intentionalWalks": 0,
+            "hits": 94,
+            "hitByPitch": 5,
+            "avg": ".236",
+            "atBats": 399,
+            "obp": ".312",
+            "slg": ".471",
+            "ops": ".783",
+            "caughtStealing": 0,
+            "stolenBases": 8,
+            "stolenBasePercentage": "1.000",
+            "caughtStealingPercentage": ".000",
+            "groundIntoDoublePlay": 7,
+            "numberOfPitches": 1786,
+            "era": "4.54",
+            "inningsPitched": "105.0",
+            "wins": 5,
+            "losses": 5,
+            "saves": 0,
+            "saveOpportunities": 0,
+            "holds": 0,
+            "blownSaves": 0,
+            "earnedRuns": 53,
+            "whip": "1.28",
+            "battersFaced": 446,
+            "outs": 315,
+            "gamesPitched": 20,
+            "completeGames": 0,
+            "shutouts": 0,
+            "strikes": 1151,
+            "strikePercentage": ".640",
+            "hitBatsmen": 5,
+            "balks": 0,
+            "wildPitches": 8,
+            "pickoffs": 0,
+            "totalBases": 188,
+            "groundOutsToAirouts": "1.01",
+            "winPercentage": ".500",
+            "pitchesPerInning": "17.01",
+            "gamesFinished": 0,
+            "strikeoutWalkRatio": "2.65",
+            "strikeoutsPer9Inn": "9.09",
+            "walksPer9Inn": "3.43",
+            "hitsPer9Inn": "8.06",
+            "runsScoredPer9": "4.71",
+            "homeRunsPer9": "1.80",
+            "inheritedRunners": 0,
+            "inheritedRunnersScored": 0,
+            "catchersInterference": 0,
+            "sacBunts": 1,
+            "sacFlies": 1
+          },
+          "team": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "player": {
+            "id": 808963,
+            "fullName": "Roki Sasaki",
+            "link": "/api/v1/people/808963"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
