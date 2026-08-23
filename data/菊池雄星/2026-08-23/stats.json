@@ -1,0 +1,104 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "pitching"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 35,
+            "gamesPlayed": 8,
+            "gamesStarted": 8,
+            "groundOuts": 29,
+            "airOuts": 40,
+            "runs": 25,
+            "doubles": 12,
+            "triples": 1,
+            "homeRuns": 5,
+            "strikeOuts": 37,
+            "baseOnBalls": 15,
+            "intentionalWalks": 0,
+            "hits": 42,
+            "hitByPitch": 2,
+            "avg": ".294",
+            "atBats": 143,
+            "obp": ".358",
+            "slg": ".497",
+            "ops": ".855",
+            "caughtStealing": 1,
+            "stolenBases": 2,
+            "stolenBasePercentage": ".667",
+            "caughtStealingPercentage": ".333",
+            "groundIntoDoublePlay": 1,
+            "numberOfPitches": 656,
+            "era": "6.25",
+            "inningsPitched": "36.0",
+            "wins": 0,
+            "losses": 3,
+            "saves": 0,
+            "saveOpportunities": 0,
+            "holds": 0,
+            "blownSaves": 0,
+            "earnedRuns": 25,
+            "whip": "1.58",
+            "battersFaced": 165,
+            "outs": 108,
+            "gamesPitched": 8,
+            "completeGames": 0,
+            "shutouts": 0,
+            "strikes": 419,
+            "strikePercentage": ".640",
+            "hitBatsmen": 2,
+            "balks": 1,
+            "wildPitches": 3,
+            "pickoffs": 0,
+            "totalBases": 71,
+            "groundOutsToAirouts": "0.73",
+            "winPercentage": ".000",
+            "pitchesPerInning": "18.22",
+            "gamesFinished": 0,
+            "strikeoutWalkRatio": "2.47",
+            "strikeoutsPer9Inn": "9.25",
+            "walksPer9Inn": "3.75",
+            "hitsPer9Inn": "10.50",
+            "runsScoredPer9": "6.25",
+            "homeRunsPer9": "1.25",
+            "inheritedRunners": 0,
+            "inheritedRunnersScored": 0,
+            "catchersInterference": 0,
+            "sacBunts": 0,
+            "sacFlies": 5
+          },
+          "team": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "player": {
+            "id": 579328,
+            "fullName": "Yusei Kikuchi",
+            "link": "/api/v1/people/579328"
+          },
+          "league": {
+            "id": 103,
+            "name": "American League",
+            "link": "/api/v1/league/103"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
