@@ -1,0 +1,104 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "pitching"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 27,
+            "gamesPlayed": 23,
+            "gamesStarted": 23,
+            "groundOuts": 156,
+            "airOuts": 140,
+            "runs": 45,
+            "doubles": 19,
+            "triples": 1,
+            "homeRuns": 15,
+            "strikeOuts": 145,
+            "baseOnBalls": 35,
+            "intentionalWalks": 1,
+            "hits": 101,
+            "hitByPitch": 6,
+            "avg": ".187",
+            "atBats": 539,
+            "obp": ".244",
+            "slg": ".310",
+            "ops": ".554",
+            "caughtStealing": 4,
+            "stolenBases": 2,
+            "stolenBasePercentage": ".333",
+            "caughtStealingPercentage": ".667",
+            "groundIntoDoublePlay": 10,
+            "numberOfPitches": 2267,
+            "era": "2.61",
+            "inningsPitched": "151.2",
+            "wins": 12,
+            "losses": 7,
+            "saves": 0,
+            "saveOpportunities": 0,
+            "holds": 0,
+            "blownSaves": 0,
+            "earnedRuns": 44,
+            "whip": "0.90",
+            "battersFaced": 583,
+            "outs": 455,
+            "gamesPitched": 23,
+            "completeGames": 1,
+            "shutouts": 0,
+            "strikes": 1493,
+            "strikePercentage": ".660",
+            "hitBatsmen": 6,
+            "balks": 0,
+            "wildPitches": 2,
+            "pickoffs": 1,
+            "totalBases": 167,
+            "groundOutsToAirouts": "1.11",
+            "winPercentage": ".632",
+            "pitchesPerInning": "14.95",
+            "gamesFinished": 0,
+            "strikeoutWalkRatio": "4.14",
+            "strikeoutsPer9Inn": "8.60",
+            "walksPer9Inn": "2.08",
+            "hitsPer9Inn": "5.99",
+            "runsScoredPer9": "2.67",
+            "homeRunsPer9": "0.89",
+            "inheritedRunners": 0,
+            "inheritedRunnersScored": 0,
+            "catchersInterference": 0,
+            "sacBunts": 0,
+            "sacFlies": 3
+          },
+          "team": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "player": {
+            "id": 808967,
+            "fullName": "Yoshinobu Yamamoto",
+            "link": "/api/v1/people/808967"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
