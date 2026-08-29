@@ -6,77 +6,6 @@
         "displayName": "season"
       },
       "group": {
-        "displayName": "hitting"
-      },
-      "exemptions": [],
-      "splits": [
-        {
-          "season": "2026",
-          "stat": {
-            "age": 31,
-            "gamesPlayed": 129,
-            "groundOuts": 109,
-            "airOuts": 108,
-            "runs": 86,
-            "doubles": 25,
-            "triples": 4,
-            "homeRuns": 30,
-            "strikeOuts": 135,
-            "baseOnBalls": 77,
-            "intentionalWalks": 16,
-            "hits": 137,
-            "hitByPitch": 5,
-            "avg": ".283",
-            "atBats": 484,
-            "obp": ".384",
-            "slg": ".537",
-            "ops": ".921",
-            "caughtStealing": 3,
-            "stolenBases": 10,
-            "stolenBasePercentage": ".769",
-            "caughtStealingPercentage": ".231",
-            "groundIntoDoublePlay": 9,
-            "numberOfPitches": 2174,
-            "plateAppearances": 573,
-            "totalBases": 260,
-            "rbi": 80,
-            "leftOnBase": 163,
-            "sacBunts": 0,
-            "sacFlies": 5,
-            "babip": ".330",
-            "groundOutsToAirouts": "1.01",
-            "catchersInterference": 2,
-            "atBatsPerHomeRun": "16.13"
-          },
-          "team": {
-            "id": 119,
-            "name": "Los Angeles Dodgers",
-            "link": "/api/v1/teams/119"
-          },
-          "player": {
-            "id": 660271,
-            "fullName": "Shohei Ohtani",
-            "link": "/api/v1/people/660271"
-          },
-          "league": {
-            "id": 104,
-            "name": "National League",
-            "link": "/api/v1/league/104"
-          },
-          "sport": {
-            "id": 1,
-            "link": "/api/v1/sports/1",
-            "abbreviation": "MLB"
-          },
-          "gameType": "R"
-        }
-      ]
-    },
-    {
-      "type": {
-        "displayName": "season"
-      },
-      "group": {
         "displayName": "pitching"
       },
       "exemptions": [],
@@ -146,6 +75,77 @@
             "catchersInterference": 0,
             "sacBunts": 1,
             "sacFlies": 2
+          },
+          "team": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "player": {
+            "id": 660271,
+            "fullName": "Shohei Ohtani",
+            "link": "/api/v1/people/660271"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    },
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "hitting"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 31,
+            "gamesPlayed": 130,
+            "groundOuts": 110,
+            "airOuts": 109,
+            "runs": 86,
+            "doubles": 25,
+            "triples": 4,
+            "homeRuns": 30,
+            "strikeOuts": 136,
+            "baseOnBalls": 77,
+            "intentionalWalks": 16,
+            "hits": 138,
+            "hitByPitch": 5,
+            "avg": ".283",
+            "atBats": 488,
+            "obp": ".383",
+            "slg": ".535",
+            "ops": ".918",
+            "caughtStealing": 3,
+            "stolenBases": 10,
+            "stolenBasePercentage": ".769",
+            "caughtStealingPercentage": ".231",
+            "groundIntoDoublePlay": 9,
+            "numberOfPitches": 2188,
+            "plateAppearances": 577,
+            "totalBases": 261,
+            "rbi": 80,
+            "leftOnBase": 164,
+            "sacBunts": 0,
+            "sacFlies": 5,
+            "babip": ".330",
+            "groundOutsToAirouts": "1.01",
+            "catchersInterference": 2,
+            "atBatsPerHomeRun": "16.27"
           },
           "team": {
             "id": 119,
