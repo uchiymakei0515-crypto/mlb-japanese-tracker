@@ -1,0 +1,104 @@
+{
+  "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
+  "stats": [
+    {
+      "type": {
+        "displayName": "season"
+      },
+      "group": {
+        "displayName": "pitching"
+      },
+      "exemptions": [],
+      "splits": [
+        {
+          "season": "2026",
+          "stat": {
+            "age": 36,
+            "gamesPlayed": 25,
+            "gamesStarted": 25,
+            "groundOuts": 140,
+            "airOuts": 166,
+            "runs": 79,
+            "doubles": 37,
+            "triples": 6,
+            "homeRuns": 27,
+            "strikeOuts": 79,
+            "baseOnBalls": 30,
+            "intentionalWalks": 0,
+            "hits": 148,
+            "hitByPitch": 3,
+            "avg": ".282",
+            "atBats": 525,
+            "obp": ".321",
+            "slg": ".530",
+            "ops": ".851",
+            "caughtStealing": 2,
+            "stolenBases": 11,
+            "stolenBasePercentage": ".846",
+            "caughtStealingPercentage": ".154",
+            "groundIntoDoublePlay": 7,
+            "numberOfPitches": 2173,
+            "era": "5.19",
+            "inningsPitched": "131.2",
+            "wins": 12,
+            "losses": 8,
+            "saves": 0,
+            "saveOpportunities": 0,
+            "holds": 0,
+            "blownSaves": 0,
+            "earnedRuns": 76,
+            "whip": "1.35",
+            "battersFaced": 566,
+            "outs": 395,
+            "gamesPitched": 25,
+            "completeGames": 0,
+            "shutouts": 0,
+            "strikes": 1342,
+            "strikePercentage": ".620",
+            "hitBatsmen": 3,
+            "balks": 0,
+            "wildPitches": 1,
+            "pickoffs": 1,
+            "totalBases": 278,
+            "groundOutsToAirouts": "0.84",
+            "winPercentage": ".600",
+            "pitchesPerInning": "16.50",
+            "gamesFinished": 0,
+            "strikeoutWalkRatio": "2.63",
+            "strikeoutsPer9Inn": "5.40",
+            "walksPer9Inn": "2.05",
+            "hitsPer9Inn": "10.12",
+            "runsScoredPer9": "5.40",
+            "homeRunsPer9": "1.85",
+            "inheritedRunners": 0,
+            "inheritedRunnersScored": 0,
+            "catchersInterference": 0,
+            "sacBunts": 2,
+            "sacFlies": 6
+          },
+          "team": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "player": {
+            "id": 608372,
+            "fullName": "Tomoyuki Sugano",
+            "link": "/api/v1/people/608372"
+          },
+          "league": {
+            "id": 104,
+            "name": "National League",
+            "link": "/api/v1/league/104"
+          },
+          "sport": {
+            "id": 1,
+            "link": "/api/v1/sports/1",
+            "abbreviation": "MLB"
+          },
+          "gameType": "R"
+        }
+      ]
+    }
+  ]
+}
